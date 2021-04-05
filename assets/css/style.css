@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+
+
+}
+
+A {
+    color:  #C5E1E6;;
+   }
+   A:visited {
+    color: # #C5E1E6;;
+   }
+   A:active {
+    color: # #C5E1E6;;
+   }
+
+header {
+    align-items: center;
+    height: 140px;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.205);
+    background-color: #2A8086;
+}
+
+.header-wrapper {
+
+    height: 110px;
+    padding: 13px 90px 13px 219px;
+    justify-content: flex-start;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    background-color: #2A8086;
+    display: flex;
+
+}
+
+.header_logo {
+
+}
+
+.nav {
+
+    justify-content:flex-start;
+    display: flex;
+    align-items: center;
+    padding: 33px 630px 30px 56px;
+}
+
+.header_button{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto Mono', monospace;
+    text-transform: uppercase;
+    color: #C5E1E6;
+    padding: 0px 52px 0px 0px;
+}
+
+.header_active-button{
+    text-decoration: underline;
+}
+
+
+
+.log-in-section {
+    white-space: nowrap;
+    width: 249px;
+    padding: 29px 90px 29px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search {
+    width: 32px;
+    height: 32px;
+    margin: 0px 40px 0px 0px;
+}
+
+.log-in-btn {
+    padding: 6px 90px 0px 0px;
+    height: 21px;
+    width: 56px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: #C5E1E6;
+}
+
+.sign-up-btn {
+
+    padding: 16px 14px 15px 14px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: #C5E1E6;
+    background-color: #2A8086;
+    border: 2px solid #C5E1E6;
+    border-radius: 50px;
+
+}
+
+.hiden {
+    display: none;
+}
+
+body {
+
+    background-color: blueviolet;
+    width: 1920px;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.main-page {
+    overflow: auto;
+
+    z-index: 2;
+}
+
+.main-page_wrapper {
+    background-image: url(/assets/img/dark-vector-main-page.svg);
+    color: #ffffff;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -73px;
+    width: 1920px;
+    height: 803px;
+}
+.main-page_wrapper-light {
+    background-image: url(/assets/img/ligth-vector-main-page.svg);
+    color: #ffffff;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0px;
+    width: 1920px;
+    height: 900px;
+}
+
+h1 {
+    font-family: "Rubik", sans-serif;
+    font-size: 72px;
+    font-weight: 500;
+    width: 750px;
+    margin: 73px 0px 0px 252px;
+}
+
+h2 {
+    margin-left: 220px;
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #0D444D;
+}
+
+h4 {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #0D444D;
+}
+
+p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+}
+
+.weight {
+    font-weight: 700;
+}
+
+.panda-link {
+    position: absolute;
+}
+
+.first-section_about {
+    height: 40px;
+    width: 480px;
+    margin: 27px 0px 0px 251px;
+}
+
+.watch-now-btn {
+    margin: 87px 0px 195px 251px;
+    text-transform: uppercase;
+    color: #0D444D;
+    letter-spacing: -0.05em;
+    background-color: #ffffff;
+    padding: 14px 84px;
+    border-radius: 84px;
+    border: none;
+    box-shadow: 0 0 50px 0px white;
+}
+
+
+.how-works_box  {
+    margin: auto;
+    width: 1480px;
+    display:  flex;
+    justify-content: space-between;
+
+}
+
+.circle-item {
+    display: flex;
+    width: 145px;
+    height: 145px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.329);
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.how-works_items {
+    display: flex;
+    flex-direction: column;
+    margin-top: 98px;
+
+}
+
+.panda-in-bamboo {
+    height: 493px;
+}
+
+.pet-box-img {
+    mask-image: url(assets/img/mask.svg);
+}
+
+ul.pets {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(2, 1fr);
+}
+
+.pet-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 15px 20px;
+    width: 480px;
+    height: 364px;
+    background-color: #ffffff;
+}
+
